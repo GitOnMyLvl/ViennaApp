@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ViennaApp</string>
+    <string name="u4_name">U4</string>
+    <string name="u4_description">One of the oldest clubs in Vienna!</string>
 </resources>
