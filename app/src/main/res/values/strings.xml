@@ -1,5 +1,95 @@
 <resources>
     <string name="app_name">ViennaApp</string>
+
+    <string name="entertainment">Entertainment</string>
+    <string name="food_and_drinks">Food and Drinks</string>
+    <string name="museums">Museums</string>
+    <string name="night_life">Night Life</string>
+    <string name="shopping">Shopping</string>
+    <string name="sports_clubs">Sports Clubs</string>
+    <string name="universities">Universities</string>
+
+
+    <string name="haus_des_meeres_name">Haus des Meeres</string>
+    <string name="haus_des_meeres_description">Haus des Meeres with fish</string>
+    <string name="maxx_entertainment_name">MAXX entertainment</string>
+    <string name="maxx_entertainment_description">MAXX entertainment trampolin and laser tag</string>
+    <string name="prater_name">Prater</string>
+    <string name="prater_description">Prater is cool</string>
+    <string name="tiergarten_schönbrunn_name">Tiergarten Schönbrunn</string>
+    <string name="tiergarten_schönbrunn_description">Tiergarten Schönbrunn lots of animals</string>
+    <string name="time_travel_vienna_name">Time Travel Vienna</string>
+    <string name="time_travel_vienna_description">Time Travel Vienna i dont know</string>
+
+    <string name="steirereck_name">Steirereck</string>
+    <string name="steirereck_description">Steirereck</string>
+    <string name="the_loft_name">The Loft</string>
+    <string name="the_loft_description">Steirereck</string>
+    <string name="sacher_name">Sacher</string>
+    <string name="sacher_description">Steirereck</string>
+    <string name="turm_restaurant_name">Turm Restaurant</string>
+    <string name="turm_restaurant_description">Steirereck</string>
+    <string name="plachutta_name">Plachutta</string>
+    <string name="plachutta_description">Steirereck</string>
+    <string name="schweizerhaus_name">Schweizerhaus</string>
+    <string name="schweizerhaus_description">Steirereck</string>
+
+    <string name="museums_quartier_name">Museums Quartir</string>
+    <string name="museums_quatir_description">Steirereck</string>
+    <string name="mak_name">MAK</string>
+    <string name="mak_description">Steirereck</string>
+    <string name="technisches_museum_name">Technisches Museum</string>
+    <string name="technisches_museum_description">Steirereck</string>
+    <string name="naturhistorisches_museum_name">Naturhistorisches Museum</string>
+    <string name="naturhistorische_museum_description">Steirereck</string>
+    <string name="mumok_name">mumok</string>
+    <string name="mumok_description">Steirereck</string>
+
+    <string name="volksgarten_name">Steirereck</string>
+    <string name="volksgarten_description">Steirereck</string>
+    <string name="travel_shack_name">Steirereck</string>
+    <string name="travel_shack_description">Steirereck</string>
+    <string name="o_club_name">Steirereck</string>
+    <string name="o_club_description">Steirereck</string>
+    <string name="praterdome_name">Steirereck</string>
+    <string name="praterdome_description">Steirereck</string>
     <string name="u4_name">U4</string>
-    <string name="u4_description">One of the oldest clubs in Vienna!</string>
+    <string name="u4_description">Steirereck</string>
+
+    <string name="mariahilferstrasse_name">Steirereck</string>
+    <string name="mariahilferstrasse_description">Steirereck</string>
+    <string name="kaertnerstrße_name">Steirereck</string>
+    <string name="kaerntnerstrase_description">Steirereck</string>
+    <string name="donau_zentrum_name">Steirereck</string>
+    <string name="donau_zentrum_description">Steirereck</string>
+    <string name="the_mall_name">Steirereck</string>
+    <string name="the_mall_description">Steirereck</string>
+    <string name="scs_name">Steirereck</string>
+    <string name="scs_description">Steirereck</string>
+
+    <string name="austria_vienna_name">Steirereck</string>
+    <string name="austria_vienna_description">Steirereck</string>
+    <string name="rapid_vienna_name">Steirereck</string>
+    <string name="rapid_vienna_description">Steirereck</string>
+    <string name="wiener_sport_club_name">Steirereck</string>
+    <string name="wiener_sport_club_description">Steirereck</string>
+    <string name="first_vienna_name">Steirereck</string>
+    <string name="first_vienna_description">Steirereck</string>
+    <string name="vienna_capitals_name">Steirereck</string>
+    <string name="vienna_capitals_description">Steirereck</string>
+
+    <string name="university_of_vienna_name">Steirereck</string>
+    <string name="university_of_vienna_description">Steirereck</string>
+    <string name="tu_name">Steirereck</string>
+    <string name="tu_description">Steirereck</string>
+    <string name="wu_name">Steirereck</string>
+    <string name="wu_description">Steirereck</string>
+    <string name="fh_campus_name">Steirereck</string>
+    <string name="fh_campus_description">Steirereck</string>
+    <string name="fh_technikum_name">Steirereck</string>
+    <string name="fh_technikum_description">Steirereck</string>
+
+
+
+
 </resources>

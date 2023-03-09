@@ -18,7 +18,7 @@ import at.vinatzer.viennaapp.ui.theme.ViennaAppTheme
 
 @Composable
 fun SpotScreen(
-    name: String,
+    name: Int,
     imageId: Int,
     descriptionId: Int,
     modifier: Modifier = Modifier
@@ -27,7 +27,7 @@ fun SpotScreen(
         modifier = Modifier.padding(4.dp)
     ) {
         Text(
-            text = name,
+            text = stringResource(id = name),
             modifier = Modifier
                 .padding(8.dp)
         )
@@ -50,7 +50,7 @@ fun SpotScreenPreview() {
     ViennaAppTheme() {
         Surface() {
             SpotScreen(
-                name = "U4",
+                name = R.string.u4_name,
                 imageId = R.drawable.u4,
                 descriptionId = R.string.u4_description
             )

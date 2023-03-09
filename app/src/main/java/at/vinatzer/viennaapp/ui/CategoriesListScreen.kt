@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import at.vinatzer.viennaapp.data.local.LocalCategoriesDataProvider
@@ -48,7 +49,7 @@ fun CategoryListItem(
     ) {
         Box {
             Text(
-                text = category.name,
+                text = stringResource(id = category.name),
                 Modifier
                     .align(Alignment.Center)
                     .padding(4.dp)

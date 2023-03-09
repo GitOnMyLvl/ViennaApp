@@ -1,30 +1,63 @@
 package at.vinatzer.viennaapp.model
 
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
 sealed class Spot(
     open val id: Int,
-    open val name: String,
-    open val imageId: Int,
-    open val descriptionId: Int
+    @StringRes open val name: Int,
+    @DrawableRes open val imageId: Int,
+    @StringRes open val descriptionId: Int
 ){
     data class EntertainmentSpot(
         override val id: Int,
-        override val name: String,
-        override val imageId: Int,
-        override val descriptionId: Int
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
+    ):Spot(id, name, imageId, descriptionId)
+
+    data class FoodAndDrinksSpot(
+        override val id: Int,
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
+    ):Spot(id, name, imageId, descriptionId)
+
+    data class MuseumSpot(
+        override val id: Int,
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
+    ):Spot(id, name, imageId, descriptionId)
+
+
+    data class NightLifeSpot(
+        override val id: Int,
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
     ):Spot(id, name, imageId, descriptionId)
 
     data class ShoppingSpot(
         override val id: Int,
-        override val name: String,
-        override val imageId: Int,
-        override val descriptionId: Int
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
     ):Spot(id, name, imageId, descriptionId)
 
-    data class NightLifeSpot(
+    data class SportsClubSpot(
         override val id: Int,
-        override val name: String,
-        override val imageId: Int,
-        override val descriptionId: Int
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
     ):Spot(id, name, imageId, descriptionId)
+
+    data class UniversitySpot(
+        override val id: Int,
+        @StringRes override val name: Int,
+        @DrawableRes override val imageId: Int,
+        @StringRes override val descriptionId: Int
+    ):Spot(id, name, imageId, descriptionId)
+
 
 }
