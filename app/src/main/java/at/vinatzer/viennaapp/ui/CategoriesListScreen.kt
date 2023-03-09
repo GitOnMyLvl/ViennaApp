@@ -10,12 +10,10 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import at.vinatzer.viennaapp.data.local.LocalCategoriesDataProvider
 import at.vinatzer.viennaapp.model.Category
-import at.vinatzer.viennaapp.model.Spot
 import at.vinatzer.viennaapp.ui.theme.ViennaAppTheme
 
 
@@ -65,7 +63,7 @@ fun CategoryListItem(
 fun CategoryScreenPreview(){
     ViennaAppTheme() {
         Surface() {
-            CategoriesScreen(categories = LocalCategoriesDataProvider.categories, onClick = {})
+            CategoriesScreen(categories = LocalCategoriesDataProvider.getCategoryData(), onClick = {})
         }
     }
 }
